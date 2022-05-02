@@ -1,6 +1,8 @@
-# blogcodebuildscript {
+# blogcodebuildscript 
+{
 
- repositories {
+ repositories 
+ {
 
    google()
 
@@ -8,7 +10,8 @@
 
  }
 
- dependencies {
+ dependencies 
+ {
 
    // Must be Android Gradle Plugin 3.6.0 or later. For a list of
 
@@ -22,17 +25,22 @@
 
 }
 
-allprojects {
+allprojects 
+{
 
- repositories {
+ repositories
+
+ {
 
    google()
 
    jcenter()
 
-   flatDir {
+   flatDir
+   
+   {
 
-     dirs 'libs'
+   dirs 'libs'
 
    }
 
